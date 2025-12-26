@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     return HotSwapLoader(
       // Updates can be loaded from the network using http:// and https://,
       // or from local files/Flutter assets using file:// and asset:// respectively.
-      uri: 'asset://assets/hot_update.evc',
+      uri: 'https://storage.googleapis.com/flutter_eval/version_1.0.0.evc',
       strategy: HotSwapStrategy.immediate,
       child: MaterialApp(
         title: 'Flutter Demo',
